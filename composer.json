@@ -1,0 +1,25 @@
+{
+    "name": "backender/core",
+    "authors": [
+        {
+            "name": "Nicolas DELCASTILLO",
+            "email": "nicolas.delcastillo@syntesy.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Backender\\Core\\BackenderCoreProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Backender\\Core\\": ""
+        }
+    }
+}
